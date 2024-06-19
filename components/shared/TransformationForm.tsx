@@ -265,6 +265,8 @@ const TransformationForm = ({action, data = null,userId,type,creditBalance,confi
               <CustomField
                 control={form.control}
                 name="color"
+                formLabel='Replacement Color'
+                className='w-full'
                 render={({ field }) => (
                   <Input
                     value={field.value}
